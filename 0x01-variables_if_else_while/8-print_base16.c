@@ -1,19 +1,15 @@
 #include<stdio.h>
 int main(void)
+	{
+char base_16;
+for (base_16 = 48; base_16 <= 57; base_16++)
 {
-	int num = 0;
-	char alpha = 'a';
+putchar(base_16);}
+for (base_16 = 97 ; base_16 <= 102; base_16++)
+{
+putchar(base_16);
+}
 
-	while (num <= 9)
-	{
-		putchar(num + '0');
-		num++;
-	}
-	while (alpha <= 'f')
-	{
-		putchar(alpha);
-		alpha++;
-	}
-	puthcar('\n');
-	return (0);
+putchar ('\n');
+return (0);
 }			

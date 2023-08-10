@@ -1,14 +1,13 @@
-#ifndef MAIN.H_
-#define MAIN.H_
-int _putchar(char c);
-int funaux(int m, int n);
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 int _strlen_recursion(char *s);
 int factorial(int n);
 int _pow_recursion(int x, int y);
+int _putchar(char c);
+int is_prime_number(int prime);
 int _sqrt_recursion(int n);
-int is_prime_number(int n);
 int is_palindrome(char *s);
-
+int another(int a, int b);
+void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
 #endif

@@ -1,6 +1,6 @@
 #ifndef _DOG_H_
 #define _DOG_H_
-[200~typedef struct dog dog_t;
+typedef struct dog dog_t;
 struct dog
 {
 	char *name;

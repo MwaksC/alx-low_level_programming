@@ -1,2 +1,1 @@
-#!/bin/bash
-$ ar -cvq libmy.a lib1.o lib2.o
+!<arch>
